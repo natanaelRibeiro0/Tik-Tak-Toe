@@ -1,0 +1,74 @@
+body{
+  background-color: rgb(77, 76, 101);
+}
+.allContent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 55px;
+}
+.playersInfo{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  text-align: center;
+  font-size: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 900;
+  color:rgb(255, 255, 255);
+}
+.nameInput{
+  color: whitesmoke;
+  text-align: center;
+  height: 25px;
+  font-size: 20px;
+  border: 2px rgb(80, 80, 96) dotted;
+  background-color: rgb(77, 76, 101);
+  border-radius: 11px;
+}
+.playerTime{
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(77, 76, 101);
+  border: none;
+}
+.gameContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.optionToChoose{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: column;
+  justify-content:space-between;
+  gap: 2px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgb(255, 255, 255);
+  max-width: 35%;
+}
+.choices{
+  min-width: 218px;
+  min-height: 200px;
+  font-size: 100px;
+  background-color: rgb(77, 76, 101);
+  border: none;
+  transition: 0.1s;
+}
+.choices:hover{
+  padding: 1%;
+  background-color:#E5E5E5;
+  border: 5px black solid;
+}
+.restart{
+  height: 30px;
+  background-attachment: fixed;
+  opacity: 20%;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+.restart:hover{
+  opacity: 100%;
+}

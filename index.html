@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js" defer></script>
+  <title>Jogo da velha</title>
+</head>
+<body>
+
+  <h1> JOGO DA VELHA </h1>
+  <hr>
+  <header>
+
+    <div class="playersInfo">
+      <div id="playerOneDiv">
+      X = <label for="playerOne" id="playerOne">NOME DO JOGADOR 1</label>
+      <br>
+      <input type="text" id="playerOneBtn" class="nameInput" name="playerOne" data-value="playerOne" disabled>
+      </div>
+      <div id="playerTwoDiv">
+      O = <label for="playerTwo"id="playerTwo">NOME DO JOGADOR 2</label>
+      <br>
+      <input type="text" id="playerTwoBtn" class="nameInput" name="playerTwo" data-value="playerTwo" disabled>
+      </div>
+    </div>
+  </header>
+
+  <div class="allContent">
+
+      <br>
+
+      <main>
+        <div class="playerTime">
+          <label for="playerTime">Agora é a vez de:</label>
+          <input type="text" id="playerTime" class="playerTime" data-value=" " disabled>
+        </div>
+        <br>
+        <div class="gameContainer">
+          <div class="optionToChoose">
+            <input type="button" class="choices" id="button1" data-value=" ">
+            <input type="button" class="choices" id="button2" data-value=" ">
+            <input type="button" class="choices" id="button3" data-value=" ">
+            <input type="button" class="choices" id="button4" data-value=" ">
+            <input type="button" class="choices" id="button5" data-value=" ">
+            <input type="button" class="choices" id="button6" data-value=" ">
+            <input type="button" class="choices" id="button7" data-value=" ">
+            <input type="button" class="choices" id="button8" data-value=" ">
+            <input type="button" class="choices" id="button9" data-value=" ">
+          </div>
+        </div>
+      </main>
+      
+      <footer>
+        <div class="restartOptions">
+          <label for="restart"></label>
+          <input type='button' value='REINICIAR JOGO' class="restart" id="restart" name="restart" data-value="restart">
+        </div>
+      </footer>
+  </div>
+
+</body>
+</html>
